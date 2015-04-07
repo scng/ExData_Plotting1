@@ -1,4 +1,4 @@
-plot4 <- function(){
+plot4 <- function(){ 
     # if global variable d1 not exist...
     # call common function to load data 
     # from the dates 2007-02-01 and 2007-02-02 
@@ -44,7 +44,7 @@ plot4 <- function(){
     # open png device
     png(filename="plot4.png", width=480, height=480)
     
-    # par assign plots in 2x2 rows
+    # par assign plots in 2x2 grid
     par(mfrow=c(2,2))
     
     # generate the topleft plot ("Global_active_power" vs "Time")
